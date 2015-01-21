@@ -68,8 +68,32 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.images{
+    width: 41%;
+    position: absolute;
+    left: 54%;
+    top: 40px;
+    z-index: 10;
+}
+.images a img{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    padding: 2px;
+    border: 1px solid #000;
+    float: left;
+}
 
-
+.container{
+    width: 45%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.2;
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+    left: 52%;
+}
 
 
 
