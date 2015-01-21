@@ -60,14 +60,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 body { 
-  background: url("../img/bg.jpg") no-repeat top center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+          background: url("../img/bg.jpg") no-repeat top center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
 }
+
 .images{
     width: 41%;
     position: absolute;
