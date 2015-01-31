@@ -61,7 +61,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body { 
-          background: url("../img/bg-min.jpg") no-repeat top center fixed;
+          background: url("../img/bg-max.jpg") no-repeat top center fixed;
           background-color: #000;
           overflow: hidden;
           -webkit-background-size: cover;
@@ -104,9 +104,9 @@ body {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 500px) {
     body { 
-          background: url("../img/bg-max.jpg") no-repeat top center fixed;
+          background: url("../img/bg-min.jpg") no-repeat top center fixed;
           background-color: #000;
           overflow: hidden;
           -webkit-background-size: cover;
@@ -114,7 +114,22 @@ body {
           -o-background-size: cover;
           background-size: cover;
     }
+    .images{
+        width: 100%;
+        left: 10%;
+
+    }
+    .container{
+        width: 100%;
+        left: 0px;  
+    }
+    .images a img{
+        width: 75px;
+        height: 75px;
+    }
 }
+
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
