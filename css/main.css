@@ -60,42 +60,11 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body { 
-          background: url("../img/bg-max.jpg") no-repeat top center fixed;
-          background-color: #000;
-          overflow: hidden;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-}
 
-.images{
-    width: 45%;
-    position: absolute;
-    left: 27%;
-    top: 40px;
-    z-index: 10;
-}
-.images a img{
-    width: 100px;
-    height: 100px;
-    margin: 2px;
-    padding: 2px;
-    border: 1px solid #000;
-    float: left;
-}
-
-.container{
-    width: 45%;
-    height: 100%;
-    background-color: #fff;
-    opacity: 0.2;
-    z-index: 10;
-    position: absolute;
-    top: 10px;
-    left: 25%;
-}
+body{background-color: #000;}
+div.item {text-align: center;}
+div.item img {width: 320px; display: inline-block;}
+div.owl-controls .owl-buttons {display: none;}
 
 
 
@@ -103,30 +72,3 @@ body {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
-@media only screen and (max-width: 500px) {
-    body { 
-          background: url("../img/bg-min.jpg") no-repeat top center fixed;
-          background-size: 500px 1000px;
-          background-color: #000;
-          overflow: hidden;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-    }
-    .images{
-        width: 100%;
-        left: 10%;
-
-    }
-    .container{
-        width: 500px;
-        height: 1000px;
-        left: 0px;  
-    }
-    .images a img{
-        width: 75px;
-        height: 75px;
-    }
-}
